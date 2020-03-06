@@ -1,14 +1,9 @@
 # AWS DeviceFarm for Desktop Browsers
 AWS Device Farm Desktop Browser using Selenium, TestNG Java
 
-AWS Device Farm for Browser Testing with Selenium using aws-sdk-java
-Selenium + Java + AWS SDK
 
 # Tools:
-Java 1.8
-Maven 
-Selenium 
-TestNG
+Java 1.8, Maven, Selenium, TestNG, Eclipse Photon
 
 # AWS Setup:
 1. Create AWS Free Tier account 
@@ -17,7 +12,7 @@ TestNG
 4. Install AWS CLI, follow this https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html
 
 # Why AWS CLI ?
-In-order to connect and consume AWS Devicefarm Service via REST or HTTP protocol secretly its required to use AWS STS. 
+In-order to consume AWS Devicefarm Service via REST or HTTP protocol secretly its required to use AWS STS. 
 For authentication AWS has 3 credentials for its clients to use : 
 i. Access Key 
 ii. Secret Key 
@@ -36,6 +31,7 @@ AWS STS stands for AWS Security Token Service
               [ - token-code <value>]
               [ - cli-input-json <value>]
               [ - generate-cli-skeleton <value>]
+  
 Please refer : https://docs.aws.amazon.com/cli/latest/reference/sts/get-session-token.html
 
 10. aws sts get-session-token command will create a Session Token 
