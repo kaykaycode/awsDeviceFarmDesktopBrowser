@@ -16,12 +16,12 @@ TestNG
 3. Give access to Device Farm Service for your IAM user
 4. Install AWS CLI, follow this https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html
 
-        # Why AWS CLI ?
-        In-order to connect and consume AWS Devicefarm Service via REST or HTTP protocol secretly its required to use AWS STS. 
-        For authentication AWS has 3 credentials for its clients to use : 
-        i. Access Key 
-        ii. Secret Key 
-        iii. Session token
+# Why AWS CLI ?
+In-order to connect and consume AWS Devicefarm Service via REST or HTTP protocol secretly its required to use AWS STS. 
+For authentication AWS has 3 credentials for its clients to use : 
+i. Access Key 
+ii. Secret Key 
+iii. Session token
 
 AWS STS stands for AWS Security Token Service
 
